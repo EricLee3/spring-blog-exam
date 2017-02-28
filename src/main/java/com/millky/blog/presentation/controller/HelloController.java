@@ -14,4 +14,9 @@ public class HelloController {
 
 		return "hello";
 	}
+	
+	@RequestMapping({"/blog"})
+	public String blog(Model model)  {
+		return "blog";
+	}
 }
